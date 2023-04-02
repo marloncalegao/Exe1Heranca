@@ -26,4 +26,9 @@ public class Gerentes extends Funcionario{
         double bonificacao = salario * 0.20;
         return bonificacao;
     }
+
+    public void Mostrardados(){
+        System.out.println("Nome:" + nome + "\n Salário:" + salario + "\n Nome de usuário:" + nomeusuario + "\n Senha:" + senha);
+    }
+
 }

@@ -13,4 +13,9 @@ public class Secretarias extends Funcionario{
     public void setNumRamal(int numRamal) {
         this.numRamal = numRamal;
     }
+
+    public void Mostrardados(){
+        System.out.println("Nome:" + nome + "\n Salário:" + salario + "\n Número de ramal:" + numRamal);
+    }
+
 }

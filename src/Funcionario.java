@@ -28,4 +28,8 @@ public class Funcionario {
         return bonificacao;
     }
 
+    public void Mostrardados(){
+        System.out.println("Nome:" + nome + "\n Salário:" + salario);
+    }
+
 }

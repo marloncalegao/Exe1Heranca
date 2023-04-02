@@ -13,4 +13,9 @@ public class Telefonistas extends Funcionario{
     public void setCodEstacao(String codEstacao) {
         this.codEstacao = codEstacao;
     }
+
+    public void Mostrardados(){
+        System.out.println("Nome:" + nome + "\n Salário:" + salario + "\n Código de estação:" + codEstacao);
+    }
+
 }
